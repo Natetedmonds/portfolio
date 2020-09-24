@@ -1,11 +1,12 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2019-07-21
 img: cabin.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: April 2019
+client: University of Tennessee
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: I worked with a team of three on updating the Network Registration page for the University of Tennessee. We brought the old page out of php and html and into the world of Django and Python. This project was interesting learning the interactions between SAML and LDAP as well as my first corporate use of a web API.
+linkTo: https://github.com/Natetedmonds/netreg
 ---

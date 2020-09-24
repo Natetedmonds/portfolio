@@ -1,11 +1,11 @@
 ---
 layout: default
 modal-id: 5
-date: 2014-07-14
-img: safe.png
+date: 2020-09-10
+img: job-estimater-proj.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: September 2020
+client: Knoxville Utilities Board
+category: Powershell
+description: A legacy program by the name of JobEstimater at Knoxville Utilities Board is a crucial component of the engineer's toolkit. This program is a multiple step install that often times will take many passes to work and function correctly. Faced with a difficult and tedious install I decided to create a powershell script packaged in a runnable BAT file to handle this beast in a single click. The script utilizes LDAP plugins with RSAT to sort users into proper groups, ACL to set security policies on files and packages, and wraps everything up in a desktop shortcut for quick access by the user.
 ---

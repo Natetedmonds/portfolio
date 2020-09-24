@@ -1,11 +1,11 @@
 ---
 layout: default
 modal-id: 4
-date: 2014-07-15
-img: game.png
+date: 2020-08-20
+img: upgrade-proj.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: August 2020
+client: Knoxville Utilities Board
+category: Powershell, Windows Deployment
+description: During deployment of a new application at Knoxville Utilities Board, it became clear that the construction, linemen, and underground construction users were having issues adapting to this application due to the nature of Windows 7. I facilitated a massive project to script and upgrade each system perserving files, deleting old and unneeded applications, and creating an out of the box experience similar but more user oriented for each of these users. This project utilized the Windows deployment tool as well as powershell to create a seemless transition.
 ---

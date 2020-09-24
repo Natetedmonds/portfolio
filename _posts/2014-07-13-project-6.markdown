@@ -1,11 +1,11 @@
 ---
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: submarine.png
+date: 2020-09-03
+img: wwan-proj.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: September 2020
+client: Knoxville Utilities Board
+category: Windows Compatible Sierra Drivers
+description: Knoxville Utilities Board changed providers from Verizon to AT&T beginning in February 2020. This caused issues with the current devices being used, specifically when dealing with their WWAN modems and the firmware present on them. After a few conversations with Panasonic, I got in touch with Sierra Wireless and assisted in creating a configuration of the 7355 and 7455 Sierra Wireless Modems. This configuration flashes the firmware of the modem, sets the proper ports on the computer, adds a driver for the built in environmental sensor, and selects operable bands for the card to reach. This project helped further my architecture knowledge as well as build a strong relation with both Panasonic's support team and Sierra Wireless' developers.
 ---

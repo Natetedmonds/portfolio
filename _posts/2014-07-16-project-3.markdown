@@ -1,11 +1,12 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: circus.png
+date: 2020-07-29
+img: selenium-proj.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: June 2020
+client: Knoxville Utilities Board
+category: Selenium, Python
+description: This project relates to a much larger project I worked on with the Knoxville Utilities Board Admins using Selenium Web Drivers to fetch data from webpages. This proof of concept uses a simple GUI in python to collect user information for the IoT panel in AT&T Admin Console and reset their SIM card. This bot was built to accommodate an increasingly mobile workforce due to the COVID crisis where SIM RAT changes and loss of connection were becoming an issue.
+linkTo: https://github.com/Natetedmonds/FirstNet-Bot
 ---

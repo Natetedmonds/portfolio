@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2019-07-21
-img: cabin.png
+img: netreg-proj.png
 alt: image-alt
 project-date: April 2019
 client: University of Tennessee

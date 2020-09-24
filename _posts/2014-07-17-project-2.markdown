@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2020-02-08
-img: cake.png
+img: travel-proj.png
 alt: image-alt
 project-date: February 2020
 client: Knoxville Utilities Board

@@ -1,4 +1,5 @@
 ---
+title: Network Registration App
 layout: default
 modal-id: 1
 date: 2019-07-21

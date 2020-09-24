@@ -6,7 +6,7 @@ description: "Developer focused on user experience and efficient back ends. Star
 keywords: "apps, python, jekyll, develop, developer, utilities, it"
 skills: "Web Developer - Technician - Customer focused design"
 meta_author: Edmonds Nathaniel
-baseurl: /portfolio
+#baseurl: /portfolio
 
 # Google webmaster tools
 google_verify:

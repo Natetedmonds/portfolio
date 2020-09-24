@@ -1,11 +1,12 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-17
+date: 2020-02-08
 img: cake.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: February 2020
+client: Knoxville Utilities Board
+category: Power Apps Development
+description: This is a proof of concept on the ability of Sharepoint to handle older systems stored within IBM Notes. This application in particular was made to handle Travel Requests and save those to a ordered list. From there the app automates the approval process sending the request to the appropriate members in the organization via an Outlook plugin. These requests can be responded to solely within Outlook and report their responses back to the corresponding request either approving, denying, or requesting modification with or without comments.
+linkTo: https://apps.gov.powerapps.us/play/0a62aa06-9e85-47e7-b711-ddd79dd076d2?tenantId=b23dd361-6f32-4048-8f90-81a7370fe20a
 ---

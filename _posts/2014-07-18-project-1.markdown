@@ -6,7 +6,7 @@ img: cabin.png
 alt: image-alt
 project-date: April 2019
 client: University of Tennessee
-category: Web Development
+category: REST, Django, Python
 description: I worked with a team of three on updating the Network Registration page for the University of Tennessee. We brought the old page out of php and html and into the world of Django and Python. This project was interesting learning the interactions between SAML and LDAP as well as my first corporate use of a web API.
 linkTo: https://github.com/Natetedmonds/netreg
 ---

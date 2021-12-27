@@ -2,7 +2,7 @@
 title: Nathaniel Edmonds
 email: natetedmonds@gmail.com
 url: https://natetedmonds.github.io/
-description: "Developer focused on user experience and efficient back ends. Starting my IT career as a technician has given me an edge in creating creative but useful designs for users and developers alike."
+description: "Unity, UnReal and Web Developer. Lover of Math"
 keywords: "apps, python, jekyll, develop, developer, c#, unity, unreal, game, it"
 skills: "Software Developer - Math Nerd"
 meta_author: Edmonds Nathaniel
@@ -33,7 +33,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Nathaniel Edmonds
   location: Location
   social: Around the Web
   credits: Credits
@@ -45,7 +45,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 2406 Cedar Lane
+  - line: 
   - line: Knoxville, Tennessee 37918
 
 # Build settings

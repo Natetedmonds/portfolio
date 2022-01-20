@@ -1,12 +1,12 @@
 ---
-title: Win7 to Win10 Upgrade
+title: AR/VR Development
 layout: default
-modal-id: 4
-date: 2020-08-20
-img: upgrade-proj.png
+modal-id: 5
+date: 2021-10-27
+img: RadDetect.gif
 alt: image-alt
-project-date: August 2020
-client: Knoxville Utilities Board
-category: Powershell, Windows Deployment
-description: During deployment of a new application at Knoxville Utilities Board, it became clear that the construction, linemen, and underground construction users were having issues adapting to this application due to the nature of Windows 7. I facilitated a massive project to script and upgrade each system perserving files, deleting old and unneeded applications, and creating an out of the box experience similar but more user oriented for each of these users. This project utilized the Windows deployment tool as well as powershell to create a seemless transition.
+project-date: October 2021
+client: Oak Ridge National Laboratory
+category: Unity
+description: While developing applications for Learning Sciences under NSSD at ORNL I was asked to lead a project on creating virtual trainings utilizing Augmented and/or Virtual Reality. I created these trainings utilizing Unity Enginge with XR Foundation and Vuforia. These tools allowed us to create fully packaged applications that can be sent internationally to work off of any Android or iOS device. These trainings are used to facilitate inspections, train nuclear security personnel, and as supplements to larger courses focusing on nuclear security and safety. Assests have been changed to generic versions for this demonstration.
 ---

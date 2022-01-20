@@ -1,12 +1,12 @@
 ---
-title: Legacy Maintenance
+title: AR/VR Development
 layout: default
 modal-id: 5
-date: 2020-09-10
-img: job-estimater-proj.png
+date: 2021-09-06
+img: ReactiveAI.gif
 alt: image-alt
-project-date: September 2020
-client: Knoxville Utilities Board
-category: Powershell
-description: A legacy program by the name of JobEstimater at Knoxville Utilities Board is a crucial component of the engineer's toolkit. This program is a multiple step install that often times will take many passes to work and function correctly. Faced with a difficult and tedious install I decided to create a powershell script packaged in a runnable BAT file to handle this beast in a single click. The script utilizes LDAP plugins with RSAT to sort users into proper groups, ACL to set security policies on files and packages, and wraps everything up in a desktop shortcut for quick access by the user.
+project-date: September 2021
+client: Oak Ridge National Laboratory
+category: Unity
+description: While developing trainings in AR and VR for the Learning Sciences division of NSSD at ORNL, I was asked to assist in creating a table top AI. This AI uses NavMeshes and Raycasts to determine what objects it is near and modifies or selects the appropriate behavior given an action to perform. This AI behavior relies on a user given action and then utilizing a line of sight raycast model it then executes that action. This can be something as simple as executing a patrol behavior to more advanced flocking as seen in the objective rotation. 
 ---

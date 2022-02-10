@@ -206,6 +206,9 @@ section.success {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    outline: 0;
+    color: #{{ site.color.primary }};
+    
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {

@@ -8,6 +8,6 @@ alt: image-alt
 project-date: February 2020
 client: Knoxville Utilities Board
 category: Power Apps Development
-description: This is a proof of concept on the ability of Sharepoint to handle older systems stored within IBM Notes. This application in particular was made to handle Travel Requests and save those to a ordered list. From there the app automates the approval process sending the request to the appropriate members in the organization via an Outlook plugin. These requests can be responded to solely within Outlook and report their responses back to the corresponding request either approving, denying, or requesting modification with or without comments.
-linkTo: https://apps.gov.powerapps.us/play/0a62aa06-9e85-47e7-b711-ddd79dd076d2?tenantId=b23dd361-6f32-4048-8f90-81a7370fe20a
+description: I was tasked with moving information out of a legacy system, IBM Notes (Lotus Notes), and in to the Microsoft environment utilizing SQL and Power Automate. This application in particular was made to handle Travel Requests report out information to key personnel from there. I built out the app utilizing both Power Automate and Power Forms, automating the approval process via an Outlook plugin. These requests can be responded to solely within Outlook and report their responses back to the corresponding request either approving, denying, or requesting modification with or without comments.
+linkTo: https://natetedmonds.github.io/portfolio
 ---

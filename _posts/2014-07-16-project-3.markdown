@@ -1,5 +1,5 @@
 ---
-title: Selenium Bot
+title: Python Web Automation
 layout: default
 modal-id: 3
 date: 2020-07-29
@@ -8,6 +8,6 @@ alt: image-alt
 project-date: June 2020
 client: Knoxville Utilities Board
 category: Selenium, Python
-description: This project relates to a much larger project I worked on with the Knoxville Utilities Board Admins using Selenium Web Drivers to fetch data from webpages. This proof of concept uses a simple GUI in python to collect user information for the IoT panel in AT&T Admin Console and reset their SIM card. This bot was built to accommodate an increasingly mobile workforce due to the COVID crisis where SIM RAT changes and loss of connection were becoming an issue.
+description: This project relates to a much larger project I worked on with the Knoxville Utilities Board Admins using Selenium Web Drivers to fetch data from webpages. This web automation script uses a simple GUI in python to collect user information for the IoT panel in AT&T Admin Console and resets their SIM card. This bot was built to accommodate an increasingly mobile workforce due to the COVID-19 crisis where SIM RAT changes and loss of connection were becoming an issue.
 linkTo: https://github.com/Natetedmonds/FirstNet-Bot
 ---

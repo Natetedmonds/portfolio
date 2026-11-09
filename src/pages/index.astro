@@ -1,0 +1,344 @@
+---
+// src/pages/index.astro
+import '../styles/global.css';
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Nathaniel Edmonds | Systems Architect & .NET Platform Engineer</title>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-brand-bg text-zinc-100 font-['Plus_Jakarta_Sans',sans-serif] selection:bg-brand-accent selection:text-brand-bg antialiased">
+    
+    <main class="max-w-6xl mx-auto px-6 py-12 lg:py-20 space-y-20">
+      
+      <header class="space-y-6 max-w-3xl">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-zinc-800 bg-zinc-900/50 text-xs font-mono text-brand-highlight">
+          <span class="w-2 h-2 rounded-full bg-brand-accent animate-pulse"></span>
+          Available for Architecture, Systems & Tech Lead Roles
+        </div>
+        <h1 class="text-4xl lg:text-6xl font-extrabold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-white via-zinc-200 to-zinc-400">
+          Nathaniel Edmonds
+        </h1>
+        <p class="text-xl text-brand-highlight font-semibold tracking-wide">
+          Senior Architect & .NET Platform Engineer
+        </p>
+        <p class="text-zinc-400 leading-relaxed text-base lg:text-lg">
+          Senior Architect and Technical Lead with 11 years of delivery across regulated academic, utility, and federal environments. Specializing in .NET environments, self-hosted and in-cloud clustering, robust database state management and design, and secure cryptographic identity pipelines.
+        </p>
+        <div class="flex flex-wrap gap-4 pt-2 text-sm font-mono">
+          <a href="https://linkedin.com/in/nathaniel-edmonds-588533208" class="text-zinc-400 hover:text-brand-accent transition-colors flex items-center gap-1">LinkedIn</a>
+          <a href="https://github.com/Natetedmonds" class="text-zinc-400 hover:text-brand-accent transition-colors flex items-center gap-1">GitHub</a>
+          <span class="text-zinc-600">|</span>
+          <span class="text-zinc-400">Knoxville, TN (Remote-Hybrid)</span>
+        </div>
+
+		<button id="contact-trigger" class="inline-flex items-center gap-2 rounded-md bg-zinc-900/80 px-2.5 py-1 text-xs font-medium text-brand-accent ring-1 ring-inset ring-zinc-800 hover:ring-zinc-700 hover:bg-zinc-900 cursor-pointer transition-all select-none">
+  			<svg xmlns="http://w3.org" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-3 w-3 text-brand-accent">
+    			<path d="m22 2-7 20-4-9-9-4Z" />
+    			<path d="M22 2 11 13" />
+  			</svg>
+  			<a href="mailto:natetedmonds@gmail.com"><span>Contact Me</span></a>
+		</button>
+      </header>
+
+      <section class="space-y-6">
+        <div class="border-b border-zinc-800 pb-4">
+          <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+            <span class="text-brand-accent font-mono text-lg">[01]</span> 
+            Enterprise Platforms & Systems
+          </h2>
+          <p class="text-zinc-500 text-sm mt-1">High-availability systems and databases with a focus on building in and maintaining for rigid compliance frameworks.</p>
+        </div>
+
+        <div class="group project-card cursor-pointer relative flex flex-col gap-2 rounded-lg border border-zinc-900 bg-zinc-950/50 p-5 transition-all hover:border-zinc-800 hover:bg-zinc-900/30"
+             data-title="Anatomic Veterinary Observable Library & Simulations (AVOLS)"
+             data-tech=".NET 10 (Blazor) / PostgreSQL Server / Threejs / (Garage, self-hosted) S3"
+             data-body="Architected and engineered a model viewer in Threejs utilizing a self-hosted CDN to deliver high-fidelity 3D anotomical models for Vetinary uses."
+             data-metric1="Garage S3"
+             data-metric2="Threejs"
+             data-media-type="image"
+             data-media-url="/assets/AVOLSExample.gif">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-medium text-zinc-200 transition-colors group-hover:text-brand-highlight text-base">AVOLS</h3>
+            <span class="font-mono text-xs text-zinc-500">.NET 10 / PostgreSQL Server / Threejs / (Garage, self-hosted) S3</span>
+          </div>
+          <p class="text-sm leading-relaxed text-zinc-400">
+            Anatomic Veterinary Observable Library & Simulations (AVOLS) is an app built in partnership with UT Research Foundation and Dr. Tim Chamberlain to provide learning and teaching materials for Veterinary personnel through simulations and hosted anotomical models.
+          </p>
+          <div class="mt-2 flex flex-wrap gap-2">
+            <span class="font-mono text-[10px] tracking-wider text-zinc-500">#AVOLS</span>
+            <span class="font-mono text-[10px] tracking-wider text-zinc-500">#S3</span>
+            <span class="font-mono text-[10px] tracking-wider text-zinc-500">#Threejs</span>
+          </div>
+        </div>
+
+        <div class="group project-card cursor-pointer relative flex flex-col gap-2 rounded-lg border border-zinc-900 bg-zinc-950/50 p-5 transition-all hover:border-zinc-800 hover:bg-zinc-900/30"
+             data-title="On-Premises S3-Compatible Content Delivery Network"
+             data-tech="(Garage, self-hosted) S3 / .NET Web API / High-Availability Cluster"
+             data-body="Designed, deployed, and maintain an on-premises, S3-compatible cloud native object storage distribution cluster using Garage. Built custom edge endpoints acting as a fast Content Delivery Network (CDN) to stream 300+ complex photogrammetry scans, serve decentralized LMS course modules, and host static web pages directly via pre-signed URL authentication paths."
+             data-metric1="Garage On-Prem Storage"
+             data-metric2="Pre-Signed URL Streaming"
+             data-media-type="image"
+             data-media-url="/assets/GarageExample.jpg">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-medium text-zinc-200 transition-colors group-hover:text-brand-highlight text-base">Decoupled Object Storage & Asset CDN</h3>
+            <span class="font-mono text-xs text-zinc-500">(Garage) S3 / .NET Web API / Content Delivery</span>
+          </div>
+          <p class="text-sm leading-relaxed text-zinc-400">
+            Engineered an on-premises S3 object storage high-availability cluster, serving complex 3D photogrammetry splats, decentralized LMS components, and static assests like Wordpress sites.
+          </p>
+          <div class="mt-2 flex flex-wrap gap-2">
+            <span class="font-mono text-[10px] tracking-wider text-zinc-500">#OnPremStorage</span>
+            <span class="font-mono text-[10px] tracking-wider text-zinc-500">#CustomCDN</span>
+            <span class="font-mono text-[10px] tracking-wider text-zinc-500">#AssetDistribution</span>
+          </div>
+        </div>
+
+        <div class="group project-card cursor-pointer relative flex flex-col gap-2 rounded-lg border border-zinc-900 bg-zinc-950/50 p-5 transition-all hover:border-zinc-800 hover:bg-zinc-900/30"
+             data-title="SUPER Application Core Modernization"
+             data-tech=".NET 10 / Entity Framework / Windows Web Workers"
+             data-body="Led core framework modernizations and database management for the mission-critical SUPER platform. Orchestrated complex system upgrades using automated Entity Framework (EF) Migrations to ensure zero downtime and structural data integrity across state-wide university extension offices and chancellorship layers."
+             data-metric1="State-Wide Production Application"
+             data-metric2="Job and Database Migration State Tracking">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-medium text-zinc-200 transition-colors group-hover:text-brand-highlight text-base">SUPER Application State Infrastructure</h3>
+            <span class="font-mono text-xs text-zinc-500">.NET 10 / EF Core</span>
+          </div>
+          <p class="text-sm leading-relaxed text-zinc-400">
+            Maintained database engineering and infrastructure sync rules for a high-concurrency mission critical events and reporting application supporting state-wide administrators and officials.
+          </p>
+          <div class="mt-2 flex flex-wrap gap-2">
+            <span class="font-mono text-[10px] tracking-wider text-zinc-500">#SUPER</span>
+            <span class="font-mono text-[10px] tracking-wider text-zinc-500">#EFCore</span>
+            <span class="font-mono text-[10px] tracking-wider text-zinc-500">#DataIntegrity</span>
+          </div>
+        </div>
+      </section>
+
+   
+    <section class="space-y-6">
+    	<div class="border-b border-zinc-800 pb-4">
+        	<div class="flex items-baseline gap-3">
+            	<span class="text-brand-accent font-mono text-lg">[02]</span>
+            	<h2 class="text-2xl font-bold text-white flex items-center gap-2">Simulations</h2>
+          	</div>
+          	<p class="mt-1 text-sm text-zinc-400">Autonomous systems engineering, mathematical simulation models, and real-time environment physics.</p>
+        </div>
+
+        <div class="group project-card cursor-pointer relative flex flex-col gap-2 rounded-lg border border-zinc-900 bg-zinc-950/50 p-5 transition-all hover:border-zinc-800 hover:bg-zinc-900/30"
+             data-title="Nuclear Personnel Training Simulations"
+             data-tech="Unity / Unreal"
+             data-body="Served as project lead for the Learning Sciences Division at Oak Ridge National Laboratory. Engineered robust XR/AR immersive training modules to be distributed internationally to facilitate structural inspections and train high-level nuclear security personnel."
+             data-metric1="Learning Sciences Division ORNL"
+             data-metric2="XR/AR Application Development"
+             data-media-type="image" 
+             data-media-url="/assets/RadDetect.gif">
+        	<div class="flex items-center justify-between gap-4">
+            	<h3 class="font-medium text-zinc-200 transition-colors group-hover:text-zinc-100">Nuclear Personnel Training Simulations</h3>
+            	<span class="font-mono text-xs text-zinc-500">Unity / Unreal</span>
+          	</div>
+          	<p class="text-sm leading-relaxed text-zinc-400">
+            	Served as project lead for the Learning Sciences Division at Oak Ridge National Laboratory to create AR/XR simulations for both on-site and remote trainings.
+          	</p>
+          	<div class="mt-2 flex flex-wrap gap-2">
+            	<span class="font-mono text-[10px] tracking-wider text-zinc-500">#ORNL</span>
+            	<span class="font-mono text-[10px] tracking-wider text-zinc-500">#LearningManagement</span>
+            	<span class="font-mono text-[10px] tracking-wider text-zinc-500">#XR-Development</span>
+          	</div>
+        </div>
+
+		<div class="group project-card cursor-pointer relative flex flex-col gap-2 rounded-lg border border-zinc-900 bg-zinc-950/50 p-5 transition-all hover:border-zinc-800 hover:bg-zinc-900/30"
+     		data-title="High-Density Multi-Agent Simulation Engine"
+     		data-tech="C# / Unity NavMesh API"
+     		data-body="Instrumented the native Unity Navigation Server pipeline to orchestrate 50 concurrent active agents navigating an urban environment framework. Developed an efficient line-of-sight sensor loop executing 400+ concurrent real-time raycasts per frame. Engineered custom vertical traversal logic by dynamically injecting arbitrary path links into the baked mesh layout, allowing seamless horizontal-to-vertical node transitions between street grids and roof coordinates."
+     		data-metric1="50 Live Agents / 400+ Raycasts"
+     		data-metric2="Sophisticated pathfinding and in scene behavior driven mechanics"
+     		data-media-type="image"
+     		data-media-url="/assets/ReactiveAI.gif">
+  			<div class="flex items-center justify-between gap-4">
+    			<h3 class="font-medium text-zinc-200 transition-colors group-hover:text-zinc-100">Urban Proximity & Tactical Response Simulation</h3>
+    			<span class="font-mono text-xs text-zinc-500">C# / Unity / NavigationServer</span>
+  			</div>
+  			<p class="text-sm leading-relaxed text-zinc-400">
+    			Architected an urban simulation framework that leverages the Unity NavigationServer to manage 50 concurrent agents executing hundreds of real-time line-of-sight raycasts and dynamic vertical traversal loops.
+  			</p>
+  			<div class="mt-2 flex flex-wrap gap-2">
+    			<span class="font-mono text-[10px] tracking-wider text-zinc-500">#BehaviorDrivenAI</span>
+    			<span class="font-mono text-[10px] tracking-wider text-zinc-500">#RaycastSensors</span>
+    			<span class="font-mono text-[10px] tracking-wider text-zinc-500">#GraphLinkManipulation</span>
+  			</div>
+		</div>
+
+        <div class="group project-card cursor-pointer relative flex flex-col gap-2 rounded-lg border border-zinc-900 bg-zinc-950/50 p-5 transition-all hover:border-zinc-800 hover:bg-zinc-900/30"
+     		data-title="6-DOF Game Jam"
+     		data-tech="C# / Unity"
+     		data-body="Most recent Game Jam, Chaos in Space. Made in 24 hours using Unity, it was interesting and novel to play with 6-DOF systems and engage with momentum and sliding in space like simulations."
+     		data-metric1="Simulated Space-Like Physics"
+     		data-metric2="Game Jam"
+     		data-media-type="image"
+     		data-media-url="/assets/MiningHellTrailerCmp.gif">
+  			<div class="flex items-center justify-between gap-4">
+    			<h3 class="font-medium text-zinc-200 transition-colors group-hover:text-zinc-100">Most Recent Game Jam: Chaos in Space</h3>
+    			<span class="font-mono text-xs text-zinc-500">C# / Unity NavMesh</span>
+  			</div>
+  			<p class="text-sm leading-relaxed text-zinc-400">
+    			For Chaos in Space I could think of nothing better than doing a modern take on the classic Asteroids in 24 hours.
+  			</p>
+  			<div class="mt-2 flex flex-wrap gap-2">
+    			<span class="font-mono text-[10px] tracking-wider text-zinc-500">#Unity</span>
+    			<span class="font-mono text-[10px] tracking-wider text-zinc-500">#SpaceSimulation</span>
+    			<span class="font-mono text-[10px] tracking-wider text-zinc-500">#GameJam</span>
+  			</div>
+		</div>
+
+    </section>
+	
+    <footer class="mt-16 border-t border-zinc-900 pt-8 pb-12">
+    	<div class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+    		<p class="text-xs text-zinc-500">
+            	Built with Astro & Tailwind CSS.
+          	</p>
+          	<p class="text-xs font-mono text-zinc-600">
+            	Copyright &copy; {new Date().getFullYear()} Nathaniel Edmonds
+          	</p>
+        	</div>
+    </footer>
+</main>
+
+<div id="project-modal" class="fixed inset-0 z-50 hidden overflow-y-auto items-center justify-center p-4 bg-zinc-950/80 backdrop-blur-sm transition-all duration-200">
+  <div class="relative w-full max-w-2xl my-auto transform rounded-xl border border-zinc-800 bg-brand-card p-6 shadow-2xl transition-all max-h-[85vh] overflow-y-auto selection:bg-brand-highlight">
+
+    <div class="space-y-4">
+      <div class="flex flex-col gap-2 border-b border-zinc-800 pb-4">
+        <div class="flex items-start justify-between gap-6">
+          <h3 id="modal-title" class="text-xl font-bold tracking-tight text-zinc-100">---</h3>
+          <button id="modal-close" class="text-xs font-mono text-zinc-500 hover:text-zinc-200 cursor-pointer transition-colors whitespace-nowrap select-none pt-1">
+            [ESC/CLOSE]
+          </button>
+        </div>
+        <div class="flex">
+          <span id="modal-tech" class="font-mono text-[11px] bg-zinc-900/90 px-2 py-0.5 rounded text-zinc-400 border border-zinc-800">---</span>
+        </div>
+      </div>
+      
+      <p id="modal-body" class="text-sm leading-relaxed text-zinc-400">---</p>
+
+      <div id="modal-media-wrapper" class="hidden overflow-hidden rounded-lg border border-zinc-800 bg-zinc-950/60 aspect-video w-full my-4">
+        <video id="modal-video" class="hidden h-full w-full object-cover" autoplay loop muted playsinline></video>
+        <img id="modal-img" class="hidden h-full w-full object-contain p-2" src="" alt="System Simulation View" />
+      </div>
+
+      <div class="mt-6 border-t border-zinc-800 pt-4">
+        <h4 class="font-mono text-xs uppercase tracking-wider text-brand-highlight mb-3">Extended Telemetry & Metrics</h4>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="rounded-lg bg-zinc-900/40 border border-zinc-800 p-3">
+            <span class="block font-mono text-[10px] text-zinc-500 uppercase">Architecture Context</span>
+            <span id="modal-metric-1" class="block font-mono text-sm text-zinc-200 font-bold mt-1">---</span>
+          </div>
+          <div class="rounded-lg bg-zinc-900/40 border border-zinc-800 p-3">
+            <span class="block font-mono text-[10px] text-zinc-500 uppercase">Production Scope</span>
+            <span id="modal-metric-2" class="block font-mono text-sm text-zinc-200 font-bold mt-1">---</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+  </body>
+</html>
+
+<script>
+  // Wrap in a DOMContentLoaded check or use delegation to guarantee execution order
+  document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('project-modal');
+    const closeBtn = document.getElementById('modal-close');
+
+    // DOM Content Hook References
+    const modalTitle = document.getElementById('modal-title');
+    const modalTech = document.getElementById('modal-tech');
+    const modalBody = document.getElementById('modal-body');
+    const metric1 = document.getElementById('modal-metric-1');
+    const metric2 = document.getElementById('modal-metric-2');
+
+	const mediaWrapper = document.getElementById('modal-media-wrapper');
+    const modalVideo = document.getElementById('modal-video') as HTMLVideoElement | null;
+    const modalImg = document.getElementById('modal-img') as HTMLImageElement | null;
+
+    function openModal(card: Element) {
+      if (!modal || !modalTitle || !modalTech || !modalBody || !metric1 || !metric2 || !mediaWrapper) return;
+      
+      // Basic Text Assignments
+      modalTitle.textContent = card.getAttribute('data-title') || '---';
+      modalTech.textContent = card.getAttribute('data-tech') || '---';
+      modalBody.textContent = card.getAttribute('data-body') || '---';
+      metric1.textContent = card.getAttribute('data-metric1') || 'N/A';
+      metric2.textContent = card.getAttribute('data-metric2') || 'N/A';
+
+      // MEDIA SLOT CONTROLLER
+      const mediaType = card.getAttribute('data-media-type');
+      const mediaUrl = card.getAttribute('data-media-url');
+
+      // Clear previous asset allocations first to save memory cycle pressure
+      if (modalVideo) { modalVideo.src = ''; modalVideo.classList.add('hidden'); }
+      if (modalImg) { modalImg.src = ''; modalImg.classList.add('hidden'); }
+      mediaWrapper.classList.add('hidden');
+
+      if (mediaUrl && mediaType) {
+        mediaWrapper.classList.remove('hidden');
+        
+        if (mediaType === 'video' && modalVideo) {
+          modalVideo.src = mediaUrl;
+          modalVideo.classList.remove('hidden');
+          modalVideo.load(); // Force browser engine context buffer refresh
+        } else if (mediaType === 'image' && modalImg) {
+          modalImg.src = mediaUrl;
+          modalImg.classList.remove('hidden');
+        }
+      }
+
+      // Display Modal UI Container
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      if (!modal) return;
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = '';
+      
+      // Stop video audio playback loops immediately on exit hide sequence
+      if (modalVideo) { modalVideo.src = ''; }
+    }
+
+    // NATIVE EVENT DELEGATION: Intercepts clicks globally even if DOM elements load late
+    document.addEventListener('click', (event) => {
+      // Find if the click or any of its parent bubbles up from a project card
+      const target = event.target as HTMLElement;
+      const card = target.closest('.project-card');
+      
+      if (card) {
+        openModal(card);
+      }
+    });
+
+    // Close Event Handlers
+    closeBtn?.addEventListener('click', closeModal);
+    
+    modal?.addEventListener('click', (e) => {
+      if (e.target === modal) closeModal();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+  });
+</script>

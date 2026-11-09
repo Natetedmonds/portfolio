@@ -1,0 +1,13 @@
+---
+title: Released Projects
+layout: default
+modal-id: 7
+date: 2021-10-29
+img: MiningHellTrailerCmp.gif
+alt: image-alt
+project-date: October 2021
+client: Personal
+category: Unity, C#, Blender
+description: While building out projects for work I began to grow my skills outside of work by participating in Game Jams. This is the trailer to my first full release Game Jam (Brackeys 2021), Mining Hell. It is a full 3d, 6DOF, simple fps game that was made to be an homage to the classic Descent. I update the itch.io release every now and then when I want to test a new idea. Check back regularly to see more progress as I grow the project.
+linkTo: https://bandedfurret.itch.io/mininghell
+---

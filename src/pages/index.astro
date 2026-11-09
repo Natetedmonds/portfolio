@@ -267,7 +267,7 @@ import '../styles/global.css';
     const metric1 = document.getElementById('modal-metric-1');
     const metric2 = document.getElementById('modal-metric-2');
 
-	const mediaWrapper = document.getElementById('modal-media-wrapper');
+	  const mediaWrapper = document.getElementById('modal-media-wrapper');
     const modalVideo = document.getElementById('modal-video') as HTMLVideoElement | null;
     const modalImg = document.getElementById('modal-img') as HTMLImageElement | null;
 
@@ -283,7 +283,12 @@ import '../styles/global.css';
 
       // MEDIA SLOT CONTROLLER
       const mediaType = card.getAttribute('data-media-type');
-      const mediaUrl = card.getAttribute('data-media-url');
+
+      let rawMediaUrl = card.getAttribute('data-media-url') || '';
+
+      const basePrefix = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/';
+      const cleanUrl = rawMediaUrl.startsWith('/') ? rawMediaUrl.substring(1) : rawMediaUrl;
+      const mediaUrl = cleanUrl ? basePrefix + cleanUrl : '';
 
       // Clear previous asset allocations first to save memory cycle pressure
       if (modalVideo) { modalVideo.src = ''; modalVideo.classList.add('hidden'); }
